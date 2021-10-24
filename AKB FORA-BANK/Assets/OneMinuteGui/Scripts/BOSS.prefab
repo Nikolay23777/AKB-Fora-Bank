@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7169895895014117264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7169895895014117266}
+  - component: {fileID: 7169895895014117267}
+  - component: {fileID: 7169895895014117271}
+  - component: {fileID: 7169895895014117269}
+  - component: {fileID: 7169895895014117268}
+  - component: {fileID: 7169895895014117270}
+  - component: {fileID: 7169895895014117353}
+  - component: {fileID: 7169895895014117352}
+  m_Layer: 0
+  m_Name: BOSS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7169895895014117266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7169895895014117267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8053c177e2dcd4066ab1f2fc792c04ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_animationPropertyName: SlideOut
+  m_initialScreen: {fileID: 0}
+  m_navigationHistory: []
+  coin: 1
+--- !u!114 &7169895895014117271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1701ecb7e6b5544ebaaeb6c65215115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car_coin: 1
+  cars:
+  - {fileID: 122594, guid: 22831fcc2700a6f41a043fd93c4050c5, type: 3}
+  - {fileID: 180286, guid: 620cadbde0b9fd94fa984d6ac0a5df93, type: 3}
+  - {fileID: 152736, guid: 14499f04b638bf2468da941edc4bb500, type: 3}
+  - {fileID: 128740, guid: 08827f54f8fbe244e9cf159923369101, type: 3}
+  - {fileID: 198954, guid: ee981da74e03b684483811013438095b, type: 3}
+  - {fileID: 195668, guid: a4ad04ccede8bdd4e9e10058d8719c4c, type: 3}
+  CARS_BOX: {fileID: 0}
+  CARS: {fileID: 0}
+  xxx: 
+  yyy: 
+--- !u!114 &7169895895014117269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17b20cc7f7fcd0488f4aaede1c7bdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img_btn: {fileID: 0}
+  img_btn_all:
+  - {fileID: 21300000, guid: 1e05ca5fd3e85fb4ebad99097faf589e, type: 3}
+  - {fileID: 21300000, guid: cc220825a924ee743ad2475949cdc747, type: 3}
+  - {fileID: 21300000, guid: 4693b79425f412b49af4c047c5de0530, type: 3}
+  Person_panel: {fileID: 0}
+  Road_panel: {fileID: 0}
+  t_person: {fileID: 0}
+  game: {fileID: 0}
+  start_menu: {fileID: 0}
+  DN: {fileID: 7169895895014117270}
+--- !u!114 &7169895895014117268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d9c7b48c5d03d4dacde6485fe70e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Roads:
+  - {fileID: 4300000, guid: 25acdec23fb6bcc48b13078ae69c1ffe, type: 3}
+  - {fileID: 4300000, guid: 15f638deb81e97e439d5096debcdd94f, type: 3}
+  - {fileID: 4300000, guid: 83b50974decd62e478390f616b9a173e, type: 3}
+  - {fileID: 4300000, guid: de6efa1d8edb80a40a7e9a521f6220fe, type: 3}
+  - {fileID: 4300000, guid: 8f3fda58ca712964abec85b8ee16b0fb, type: 3}
+  - {fileID: 4300000, guid: cd63ec9631f37e44cb75298d101a793e, type: 3}
+  Roads_tram:
+  - {fileID: 4300000, guid: 404891474c6ba93489c206127c94cb6e, type: 3}
+  - {fileID: 4300000, guid: bb5c0bb7c7a34b04da32c5565c769e12, type: 3}
+  - {fileID: 4300000, guid: 404891474c6ba93489c206127c94cb6e, type: 3}
+  - {fileID: 4300000, guid: 4f1ff67c4af36544396712f71a459d94, type: 3}
+  - {fileID: 4300000, guid: ca4a7f1aff5b9d74cae4055f35495a5d, type: 3}
+  - {fileID: 4300000, guid: cd63ec9631f37e44cb75298d101a793e, type: 3}
+  GO: {fileID: 7459253945745112373, guid: ae552b1b674dc84499c81693275eb3eb, type: 3}
+  GO2: {fileID: 7459253945745112373, guid: 23dcba719643bc4409e91ca521e68dc6, type: 3}
+  count: 0
+  car_date: {fileID: 7169895895014117271}
+--- !u!114 &7169895895014117270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835ecf0232773e145a735b92a68d1121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameTime: {fileID: 0}
+  directionalLight: {fileID: 0}
+  fullDay: 240
+  currentTime: 1
+  HOUR: 0
+--- !u!114 &7169895895014117353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17db28b28997d34fadf91141880049d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  T_ecologies1: {fileID: 0}
+  T_minerals1: {fileID: 0}
+  T_water1: {fileID: 0}
+  T_descriptiom: {fileID: 0}
+  max_temperarura: 0
+  min_temperarura: 0
+  rating: 0
+  population: 0
+  influx_population: 0
+  landscape: 0
+  Seson_landscape: 0
+  water: 0
+  Fertility_land: 
+  TEMP_build: {fileID: 0}
+--- !u!114 &7169895895014117352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169895895014117264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ce63d5e1738d249bf9d2115f8a6c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NDDDD: {fileID: 0}
